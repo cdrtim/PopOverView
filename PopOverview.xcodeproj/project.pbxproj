@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		814889D61DD07F6400F5E320 /* angry.png in Resources */ = {isa = PBXBuildFile; fileRef = 814889CC1DD07F6400F5E320 /* angry.png */; };
+		814889D71DD07F6400F5E320 /* comment.png in Resources */ = {isa = PBXBuildFile; fileRef = 814889CD1DD07F6400F5E320 /* comment.png */; };
+		814889D81DD07F6400F5E320 /* greyLike.png in Resources */ = {isa = PBXBuildFile; fileRef = 814889CE1DD07F6400F5E320 /* greyLike.png */; };
+		814889D91DD07F6400F5E320 /* haha.png in Resources */ = {isa = PBXBuildFile; fileRef = 814889CF1DD07F6400F5E320 /* haha.png */; };
+		814889DA1DD07F6400F5E320 /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = 814889D01DD07F6400F5E320 /* img.png */; };
+		814889DB1DD07F6400F5E320 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 814889D11DD07F6400F5E320 /* like.png */; };
+		814889DC1DD07F6400F5E320 /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = 814889D21DD07F6400F5E320 /* love.png */; };
+		814889DD1DD07F6400F5E320 /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 814889D31DD07F6400F5E320 /* sad.png */; };
+		814889DE1DD07F6400F5E320 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 814889D41DD07F6400F5E320 /* share.png */; };
+		814889DF1DD07F6400F5E320 /* wow.png in Resources */ = {isa = PBXBuildFile; fileRef = 814889D51DD07F6400F5E320 /* wow.png */; };
+		814889E11DD085A100F5E320 /* avatar1.png in Resources */ = {isa = PBXBuildFile; fileRef = 814889E01DD085A100F5E320 /* avatar1.png */; };
+		814889E91DD0901300F5E320 /* PopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814889E81DD0901300F5E320 /* PopOverViewController.swift */; };
 		817F0EBF1DD07BED0098EEB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817F0EBE1DD07BED0098EEB9 /* AppDelegate.swift */; };
 		817F0EC11DD07BED0098EEB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817F0EC01DD07BED0098EEB9 /* ViewController.swift */; };
 		817F0EC41DD07BED0098EEB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817F0EC21DD07BED0098EEB9 /* Main.storyboard */; };
@@ -15,6 +27,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		814889CC1DD07F6400F5E320 /* angry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angry.png; sourceTree = "<group>"; };
+		814889CD1DD07F6400F5E320 /* comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comment.png; sourceTree = "<group>"; };
+		814889CE1DD07F6400F5E320 /* greyLike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyLike.png; sourceTree = "<group>"; };
+		814889CF1DD07F6400F5E320 /* haha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haha.png; sourceTree = "<group>"; };
+		814889D01DD07F6400F5E320 /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
+		814889D11DD07F6400F5E320 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		814889D21DD07F6400F5E320 /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = "<group>"; };
+		814889D31DD07F6400F5E320 /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
+		814889D41DD07F6400F5E320 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		814889D51DD07F6400F5E320 /* wow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wow.png; sourceTree = "<group>"; };
+		814889E01DD085A100F5E320 /* avatar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar1.png; sourceTree = "<group>"; };
+		814889E81DD0901300F5E320 /* PopOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopOverViewController.swift; path = ../PopOverViewController.swift; sourceTree = "<group>"; };
 		817F0EBB1DD07BED0098EEB9 /* PopOverview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopOverview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		817F0EBE1DD07BED0098EEB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		817F0EC01DD07BED0098EEB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +59,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		814889CB1DD07ED200F5E320 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				814889E01DD085A100F5E320 /* avatar1.png */,
+				814889CC1DD07F6400F5E320 /* angry.png */,
+				814889CD1DD07F6400F5E320 /* comment.png */,
+				814889CE1DD07F6400F5E320 /* greyLike.png */,
+				814889CF1DD07F6400F5E320 /* haha.png */,
+				814889D01DD07F6400F5E320 /* img.png */,
+				814889D11DD07F6400F5E320 /* like.png */,
+				814889D21DD07F6400F5E320 /* love.png */,
+				814889D31DD07F6400F5E320 /* sad.png */,
+				814889D41DD07F6400F5E320 /* share.png */,
+				814889D51DD07F6400F5E320 /* wow.png */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
 		817F0EB21DD07BED0098EEB9 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +96,10 @@
 		817F0EBD1DD07BED0098EEB9 /* PopOverview */ = {
 			isa = PBXGroup;
 			children = (
+				814889CB1DD07ED200F5E320 /* Source */,
 				817F0EBE1DD07BED0098EEB9 /* AppDelegate.swift */,
 				817F0EC01DD07BED0098EEB9 /* ViewController.swift */,
+				814889E81DD0901300F5E320 /* PopOverViewController.swift */,
 				817F0EC21DD07BED0098EEB9 /* Main.storyboard */,
 				817F0EC51DD07BED0098EEB9 /* Assets.xcassets */,
 				817F0EC71DD07BED0098EEB9 /* LaunchScreen.storyboard */,
@@ -125,8 +169,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				817F0EC91DD07BED0098EEB9 /* LaunchScreen.storyboard in Resources */,
+				814889DC1DD07F6400F5E320 /* love.png in Resources */,
+				814889D61DD07F6400F5E320 /* angry.png in Resources */,
+				814889DB1DD07F6400F5E320 /* like.png in Resources */,
+				814889D71DD07F6400F5E320 /* comment.png in Resources */,
+				814889D81DD07F6400F5E320 /* greyLike.png in Resources */,
+				814889DF1DD07F6400F5E320 /* wow.png in Resources */,
 				817F0EC61DD07BED0098EEB9 /* Assets.xcassets in Resources */,
+				814889DE1DD07F6400F5E320 /* share.png in Resources */,
+				814889D91DD07F6400F5E320 /* haha.png in Resources */,
+				814889E11DD085A100F5E320 /* avatar1.png in Resources */,
+				814889DD1DD07F6400F5E320 /* sad.png in Resources */,
 				817F0EC41DD07BED0098EEB9 /* Main.storyboard in Resources */,
+				814889DA1DD07F6400F5E320 /* img.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +194,7 @@
 			files = (
 				817F0EC11DD07BED0098EEB9 /* ViewController.swift in Sources */,
 				817F0EBF1DD07BED0098EEB9 /* AppDelegate.swift in Sources */,
+				814889E91DD0901300F5E320 /* PopOverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +317,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = LGTFHWXLRR;
 				INFOPLIST_FILE = PopOverview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Mystudio.PopOverview;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mystudio.Login;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,10 +331,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = LGTFHWXLRR;
 				INFOPLIST_FILE = PopOverview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Mystudio.PopOverview;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mystudio.Login;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -302,6 +360,7 @@
 				817F0ECF1DD07BED0098EEB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

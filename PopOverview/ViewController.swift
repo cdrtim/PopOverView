@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIPopoverPresentationControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,9 +17,17 @@ class ViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        }
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "showview") {
+        let controller = segue.destination
+            controller.popoverPresentationController?.delegate = self
+            controller.preferredContentSize = CGSize.init(width: 220, height: 30)
+        }
     }
-
-
+    func adaptivePresentationStyle(for controller: UIPresentationController) -> UIModalPresentationStyle {
+        return .none
+    }
 }
 
